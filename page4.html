@@ -1,62 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <title>CV professionnel</title>
-    
-    <table>
-       
-    
-        <tr align="center">
-        <td><h3><u><i>Je suis ravie de partager mon parcours professionnel avec vous. Si vous êtes intéressé(e) par ma candidature ou si vous souhaitez en savoir plus sur mes compétences et expériences, 
-            n'hésitez pas à remplir ce formulaire</i></u></h2></td> : 
-    </tr>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
 
-</table>
-<p>                                    </p>
-    
-        
-    <label for="name">Nom de la société :</label>
-    <input type="text" required minlength ="3" maxlength ="20" size ="10">
-    <label for="Ville">Ville :</label>
-    <select name="pays">
-    <option value ="AR">Ariana</option>
-    <option value ="TN">Tunis</option>
-    <option value ="BN">Ben arous</option>
-    <option value ="BN">Bizerte</option>
-    
+    <div class="container">
+        <h3>Formulaire de Contact</h3>
+        <p>Je suis ravie de partager mon parcours professionnel avec vous. Si vous êtes intéressé(e) par ma candidature ou si vous souhaitez en savoir plus sur mes compétences et expériences, n'hésitez pas à remplir ce formulaire :</p>
 
-    </select>
-    <p>                                </p>
-    <table>
-    <tr>
-        <td>
-        <label for ="email">Email : </label>
-        <input type="email"  placeholder="contact@gmail.com"
+        <form action="#" method="POST">
+            <label for="companyName">Nom de la société :</label>
+            <input type="text" id="companyName" name="companyName" required minlength="3" maxlength="20">
 
-        </td> 
-       
-        <td>
-            <label for="Adresse">Adresse de la société :</label>
-            <input type="text" required minlength ="5" maxlength ="20" size ="20">   
-        </td>
-    </tr>
+            <label for="city">Ville :</label>
+            <select name="city">
+                <option value="Ariana">Ariana</option>
+                <option value="Tunis">Tunis</option>
+                <option value="BenArous">Ben Arous</option>
+                <option value="Bizerte">Bizerte</option>
+            </select>
 
-</tablle > 
-<p>                            </p>
-<table>
-    <p>                          </p>
-    <tr> <td>
-<label for ="commentaire">Commentaire : </label>
-<textarea name="commentaire" id="commantaire" cols="30" rows ="5"></textarea>
-</td>
-<td> <label for="name">Numero de téléphone  :</label>
-    <input type="int" required minlength ="3" maxlength ="20" size ="10"> </td>
-</tr>
- </table> 
- <a href="https://kirambenali.github.io/miniprojet/page3.html"  > Page precédente </a>  
- </head>  
-<body>  
-    
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="contact@gmail.com" required>
+
+            <label for="companyAddress">Adresse de la société :</label>
+            <input type="text" id="companyAddress" name="companyAddress" required minlength="5" maxlength="20">
+
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" cols="30" rows="5"></textarea>
+
+            <label for="phoneNumber">Numéro de téléphone :</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required minlength="3" maxlength="20">
+
+            <div class="form-buttons">
+                <a href="https://kirambenali.github.io/miniprojet/page3.html">Page précédente</a>
+                <button type="submit">Confirmer</button>
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(139, 138, 135);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 50px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+h2, h3, h4 {
+    color: #375470;
+}
+
+u {
+    color: rgb(10, 96, 161);
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+
+a {
+    color: #ddedf6;
+    
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+td {
+    padding: 20px;
+    border: 1px solid rgb(51, 51, 53);
+    text-align: left;
+    background:rgb(124, 124, 130)
+  }
+  td {
+    width: 350px;}

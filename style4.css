@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(139, 138, 135); 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 50px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 15px;
+}
+
+label {
+    color: #2a2f34 ;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b3d3d;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
